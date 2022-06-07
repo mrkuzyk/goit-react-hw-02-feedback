@@ -1,5 +1,9 @@
-export const App = () => {
-  return (
+import { Component } from 'react';
+
+
+export class App extends Component {
+  render() {
+    return (
     <div
       style={{
         height: '100vh',
@@ -13,4 +17,5 @@ export const App = () => {
       React homework template
     </div>
   );
+  }
 };
